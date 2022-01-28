@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0; 
 }
 
 body {
@@ -77,6 +77,7 @@ header {
     padding: 30px;
     margin-left: auto;
     margin-right: auto;
+    background: #E2E4E7;
 }
 
 h1 {
@@ -87,24 +88,36 @@ h1 {
     margin-bottom: 20px;
 }
 
-.contenedor {
-    margin: 10px;
-    float: left;
-    width: 359px;
+#cards, #cards2 {
+    background: #E2E4E7;
+    display: flex;
+    justify-content: center;
 }
 
-.contenedor img {
+.card img, .card2 img{
     width: 100%;
-    height: auto;
-}
-.contenedor2 {
-    margin: 16px;
-    padding: 16px;
-    box-shadow: 0px 0px 10px 5px #0D567C;
 }
 
-div .texto-foto {
+.card, .card2{
+    background: #FFF;
     text-align: center;
-    padding: 8px;
+    width: 10%;
+    margin: 30px 30px 30px 30px;
+    padding: 20px;
 }
 
+h2, p {
+    margin-top: 10px;
+}
+
+#footer {
+    height: 80px;
+    line-height: 80px;
+    background: #438EB5;
+    color: #000000;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
